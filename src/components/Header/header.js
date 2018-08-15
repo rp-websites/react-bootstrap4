@@ -30,7 +30,7 @@ class Header extends Component {
                         <Navbar light expand="md">
                             <NavbarToggler onClick={this.props.onClickNav}/>
                             <NavbarBrand href="/">
-                                <img src="/images/logo.svg" alt="Logo" width="100px"/>
+                                <img src={`${process.env.PUBLIC_URL}/images/logo.svg`} alt="Logo" width="100"/>
                             </NavbarBrand>
                             <NavCollapse className="visible-lg hide-search"
                                          isOpen={this.props.onOpenCollapse}
@@ -42,13 +42,16 @@ class Header extends Component {
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
                                     <NavLink href="/" className="avatar-wrapper">
-                                        <img className="avatar-img rounded-circle" src="/images/avatar.jpg" width="40" alt="avatar"/>
+                                        <img className="avatar-img rounded-circle" src="/images/avatar.jpg" width="40"
+                                             alt="avatar"/>
                                         <span>Pedro Sttau</span>
                                     </NavLink>
                                 </NavItem>
-                                <Button className="btn-sidebar" onClick={this.props.sidebarToggle}>
-                                    <i className="icon-dots"/>
-                                </Button>
+                                <NavItem className="p-0 m-0">
+                                    <Button className="btn-sidebar" onClick={this.props.sidebarToggle}>
+                                        <i className="icon-dots"/>
+                                    </Button>
+                                </NavItem>
                             </Nav>
                         </Navbar>
                     </div>

@@ -17,7 +17,7 @@ class Routes extends Component {
                 <Switch>
                     <Route path="/" exact component={Home}/>
                     <Route path="/sign-in" exact component={SignIn} />
-                    <Route path={`${process.env.PUBLIC_URL}/projects`} exact component={Projects}/>
+                    <Route path="/projects" exact component={Projects}/>
                     <Route path="/projects/:id" exact component={ProjectDetails}/>
                     <Route path="/ideas" exact component={Ideas}/>
                     <Route path="/search" exact component={Search}/>

@@ -7,7 +7,7 @@ import Routes from "./routes";
 
 const App = () => {
     return(
-        <BrowserRouter basename="/icarlab">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes />
         </BrowserRouter>
     )

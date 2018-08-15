@@ -24,7 +24,7 @@ const NavCollapse = (props) => {
                     ) : null}
                 </NavItem>
                 <NavItem>
-                    <NavLink href={`${process.env.PUBLIC_URL}/projects`} className={props.activePage === 'projects' ? 'active' : ''}>
+                    <NavLink href="/projects" className={props.activePage === 'projects' ? 'active' : ''}>
                         <i className="icon-projects icon-space-l"/>
                         Projects
                     </NavLink>

@@ -1,0 +1,69 @@
+.sidebar-fixed {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.06);
+    width: 280px;
+    padding-top: 110px;
+    background: #ffffff;
+    height: 100vh !important;
+    z-index: 1;
+    transform: translateX(280px);
+    -webkit-transform: translateX(280px);
+    transition: all 0.2s;
+}
+
+.sidebar-fixed.show {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+.sidebar-inner {
+    height: 100%;
+    background: none;
+    border: 0 none;
+    padding: 0 30px;
+}
+
+.icon-close {
+    background: url("/images/icons/close.svg") no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+}
+
+.members-wrapper {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: #666a6c;
+    text-transform: uppercase;
+}
+
+.btn-close {
+    border: 0 none;
+    background: none;
+    text-align: right;
+    float: right;
+    padding-right: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-sidebar, .btn-sidebar:hover,
+.btn-sidebar:active, .btn-sidebar:focus {
+    padding: 5px;
+    background: none !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+    margin-left: 50px;
+    line-height: 1.2;
+}
+
+.sidebar-inner .card-body {
+    padding: 10px 0 0 0;
+}

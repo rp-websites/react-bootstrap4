@@ -1,0 +1,20 @@
+.ideas-chart .recharts-yAxis .recharts-cartesian-axis-ticks,
+.ideas-chart .recharts-cartesian-axis-tick-line{
+    display: none;
+}
+.ideas-chart text{
+    font-size: 11px;
+    color: #666a6c;
+}
+.recharts-cartesian-axis-line{
+    stroke: #d8d9da;
+}
+.ideas-chart .yAxis .recharts-cartesian-axis-line,
+.ideas-chart .recharts-cartesian-grid,
+.ideas-chart .recharts-active-dot,
+.ideas-chart .recharts-tooltip-cursor,
+.ideas-chart .recharts-line,
+.ideas-chart .recharts-xAxis
+{
+    transform: translateX(-35px);
+}

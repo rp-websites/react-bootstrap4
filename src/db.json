@@ -1,0 +1,190 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Sean Roberts",
+      "position": "CIO",
+      "image": "1.jpg",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Emily Ramirez",
+      "position": "QA Head",
+      "image": "2.jpg",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Joshua Nelson",
+      "position": "Project Manager",
+      "image": "1.jpg",
+      "status": false
+    },
+    {
+      "id": 4,
+      "name": "Sean Roberts",
+      "position": "CIO",
+      "image": "2.jpg",
+      "status": true
+    },
+    {
+      "id": 5,
+      "name": "Emily Ramirez",
+      "position": "QA Head",
+      "image": "1.jpg",
+      "status": true
+    },
+    {
+      "id": 6,
+      "name": "Joshua Nelson",
+      "position": "Project Manager",
+      "image": "2.jpg",
+      "status": true
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Carlist",
+      "status": "completed",
+      "logo": "carlist.svg",
+      "description": "Societies are becoming more inter-connected. Thoughts from different cultures are shared through the use of Internet chat rooms and web postings.  ",
+      "tags": [
+        "New Car",
+        "Malaysia",
+        "Car Accessories"
+      ],
+      "date": "May 2018",
+      "owner": "Pedro Sttau"
+    },
+    {
+      "id": 2,
+      "name": "One2Car",
+      "status": "processing",
+      "logo": "one-2-car.svg",
+      "description": "Societies are becoming more inter-connected. Thoughts from different cultures are shared through the use of Internet chat rooms and web postings.  ",
+      "tags": [
+        "Old Car",
+        "Thailand"
+      ],
+      "date": "May 2018",
+      "owner": "Aron Foo"
+    },
+    {
+      "id": 3,
+      "name": "Mobil123",
+      "status": "hold",
+      "logo": "mobil-123.svg",
+      "description": "Societies are becoming more inter-connected. Thoughts from different cultures are shared through the use of Internet chat rooms and web postings.  ",
+      "tags": [
+        "Old Car",
+        "Thailand"
+      ],
+      "date": "May 2018",
+      "owner": "Aron Foo"
+    },
+    {
+      "id": 5,
+      "name": "Carlist",
+      "status": "completed",
+      "logo": "carlist.svg",
+      "description": "Societies are becoming more inter-connected. Thoughts from different cultures are shared through the use of Internet chat rooms and web postings.  ",
+      "tags": [
+        "New Car",
+        "Malaysia",
+        "Car Accessories"
+      ],
+      "date": "May 2018",
+      "owner": "Pedro Sttau"
+    },
+    {
+      "id": 6,
+      "name": "One2Car",
+      "status": "processing",
+      "logo": "one-2-car.svg",
+      "description": "Societies are becoming more inter-connected. Thoughts from different cultures are shared through the use of Internet chat rooms and web postings.  ",
+      "tags": [
+        "Old Car",
+        "Thailand"
+      ],
+      "date": "May 2018",
+      "owner": "Aron Foo"
+    },
+    {
+      "id": 7,
+      "name": "Mobil123",
+      "status": "hold",
+      "logo": "mobil-123.svg",
+      "description": "Societies are becoming more inter-connected. Thoughts from different cultures are shared through the use of Internet chat rooms and web postings.  ",
+      "tags": [
+        "Old Car",
+        "Thailand"
+      ],
+      "date": "May 2018",
+      "owner": "Aron Foo"
+    }
+  ],
+  "ideas": [
+    {
+      "id": 1,
+      "name": "idea",
+      "status": "completed",
+      "title": "Compare Prices Find The Best Computer Accessory ",
+      "description": "Most people who work in an office environment, buy computer products, or have a computer at home have had the “fun” experience of dealing with technical support.",
+      "tags": [
+        "Idea",
+        "ICarData",
+        "Car Stats"
+      ],
+      "date": "May 2018",
+      "votes": "32"
+    },
+    {
+      "id": 2,
+      "name": "idea",
+      "status": "processing",
+      "title": "Thousands Now Adware Removal Who Never Thought They Could",
+      "description": "Most people who work in an office environment, buy computer products, or have a computer at home have had the “fun” experience of dealing with technical support.",
+      "tags": [
+        "Idea",
+        "ICarData",
+        "Car Stats",
+        "Dahboard"
+      ],
+      "date": "June 2018",
+      "votes": "0"
+    },
+    {
+      "id": 3,
+      "name": "idea",
+      "status": "hold",
+      "title": "Another text",
+      "description": "Most people who work in an office environment, buy computer products, or have a computer at home have had the “fun” experience of dealing with technical support.",
+      "tags": [
+        "Idea",
+        "ICarData",
+        "Car Stats"
+      ],
+      "date": "June 2018",
+      "votes": "0"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "Sean Roberts",
+      "image": "1.jpg",
+      "date": "2 min ago",
+      "comment": "Thanks for the update."
+    },
+    {
+      "id": 2,
+      "name": "Sean Roberts",
+      "image": "2.jpg",
+      "date": "2 min ago",
+      "comment": "Nemo site manga aliqua dolore lorem ipsum manga tempore",
+      "commentImage": "1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.multiselect-wrapper, .multiselect-wrapper div{
+    outline: none!important;
+}
+.multiselect-wrapper, .multiselect-wrapper>div{
+    box-shadow: none!important;
+}
+.multiselect-wrapper > div{
+    background-color: #f4f6f8;
+
+}
+.multiselect-wrapper div {
+    font-size: 14px;
+    color: #666a6c!important;
+}
+.multiselect-wrapper .css-2o5izw{
+    border-color: #ced4da!important;
+}
+.multiselect-wrapper .css-1rtrksz{
+    padding: 3px 0.75rem;
+}
+.multiselect-wrapper .css-xwjg1b{
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px rgba(102, 106, 108, 0.2);
+    font-weight: 500;
+}
+.multiselect-wrapper .css-10odw4q{
+    font-size: 12px;
+}
+.multiselect-wrapper .css-1alnv5e{
+    background: none!important;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.multiselect-wrapper .css-19bqh2r{
+    height: 12px;
+}
+.multiselect-wrapper .css-1alnv5e{
+    padding-left: 0;
+}
+.multiselect-wrapper .css-1wy0on6{
+    display: none;
+}

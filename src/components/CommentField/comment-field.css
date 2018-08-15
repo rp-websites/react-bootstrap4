@@ -1,0 +1,30 @@
+[contenteditable=true]{
+    outline: none !important;
+    cursor: text;
+    height: auto!important;
+}
+.reply-wrapper .media-body {
+    max-width: 88%;
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block;
+    color: #666a6c;
+    line-height: 1.8;
+}
+.form-control-sm[contenteditable=true]{
+    padding-right: 60px;
+    min-height: 32px;
+    max-height: 100px;
+    overflow: auto;
+    font-size: 12px;
+}
+
+.form-control-lg[contenteditable=true]{
+    line-height: 1.8;
+    padding-right: 70px;
+    min-height: 48px;
+    max-height: 150px;
+    overflow: auto;
+}

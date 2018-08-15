@@ -1,0 +1,108 @@
+.modal-backdrop{
+    background-color: #ffffff;
+}
+.modal-backdrop.show {
+    opacity: 0.9;
+}
+.modal-lg{
+    max-width: 620px;
+}
+.modal-content{
+    border-radius: 6px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.06), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    border: solid 1px #003c5a;
+    padding: 30px;
+}
+.modal-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #404446;
+}
+.modal-header, .modal-body{
+    padding: 0;
+}
+.modal-header{
+    border-bottom: 0 none;
+}
+.modal-header .close{
+    padding: 20px 30px;
+}
+.modal-header .close span{
+    background: url("/images/icons/close.svg") no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+    font-size: 0;
+}
+label{
+    font-weight: 600;
+}
+.text-danger{
+    color: #ee3939;
+}
+.form-group{
+    margin-bottom: 25px;
+}
+textarea.form-control{
+    min-height: 80px;
+    resize: none;
+}
+.readonly-field {
+    background-color: #f4f6f8;
+    line-height: 1.7;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.icon-valid{
+    background: url("/images/icons/success.svg") no-repeat;
+    width: 84px;
+    height: 84px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+}
+.icon-invalid{
+    background: url("/images/icons/failure.svg") no-repeat;
+    width: 84px;
+    height: 84px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+}
+.modal-sm{
+    margin-top: 100px;
+}
+.modal-sm-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #404446;
+    margin: 25px 0 15px 0;
+}
+.modal-btn{
+    margin-top: 10px;
+    min-width: 130px;
+}
+.modal-dialog{
+    margin-top: 100px;
+}
+@media only screen and (min-width: 580px){
+    .modal-sm {
+        max-width: 420px;
+    }
+    .modal-content{
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .modal-dialog{
+        max-width: 80%;
+        margin: 50px auto;
+    }
+}

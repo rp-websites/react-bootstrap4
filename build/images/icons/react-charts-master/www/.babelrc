@@ -1,5 +1,0 @@
-{
-  "presets": ["./node_modules/react-static/babel-preset.js"],
-  "plugins": ["source", "babel-plugin-styled-components"],
-  "ignore": ["dist/static.*.js"]
-}

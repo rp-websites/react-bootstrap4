@@ -30,7 +30,7 @@ class Header extends Component {
                         <Navbar light expand="md">
                             <NavbarToggler onClick={this.props.onClickNav}/>
                             <NavbarBrand href="/">
-                                <img src={`${process.env.PUBLIC_URL}/images/logo.svg`} alt="Logo" width="100"/>
+                                <img src="/images/logo.svg" alt="Logo" width="100"/>
                             </NavbarBrand>
                             <NavCollapse className="visible-lg hide-search"
                                          isOpen={this.props.onOpenCollapse}

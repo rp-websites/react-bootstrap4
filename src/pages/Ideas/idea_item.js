@@ -31,10 +31,10 @@ class IdeaItem extends Component {
                         <span className="p-0 idea-title-text">
                             {this.props.item.title}
                         </span>
-                            <Col lg="3" className="p-0">
+                            <span className="p-0 col-lg-3">
                                 <Badge className={`status idea-status status-yellow`}>{this.props.item.name}</Badge>
                                 <Badge className={`status idea-status status-${this.props.item.status}`}>{this.props.item.status}</Badge>
-                            </Col>
+                            </span>
                         </Media>
                         <div className="date">{this.props.item.date}</div>
                         <p className="std-text-sm idea-text">

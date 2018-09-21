@@ -43,6 +43,8 @@
 @media only screen and (max-width: 579px) {
     .login-wrapper{
         width: 80%;
+        padding: 30px 20px;
+        max-height: 362px;
     }
 
 
@@ -55,7 +57,7 @@
     }
 
     .signin-btn i {
-        margin-top: 3px;
+        display: none;
     }
 }
 @media only screen and (min-height: 481px) {

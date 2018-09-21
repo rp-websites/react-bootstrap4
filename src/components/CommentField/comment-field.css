@@ -2,6 +2,8 @@
     outline: none !important;
     cursor: text;
     height: auto!important;
+    white-space: normal;
+    word-break: break-all;
 }
 .reply-wrapper .media-body {
     max-width: 88%;

@@ -106,3 +106,8 @@ textarea.form-control{
         margin: 50px auto;
     }
 }
+@media only screen and (max-width: 579px){
+    .modal-content{
+        padding: 15px;
+    }
+}

@@ -78,7 +78,7 @@
 }
 .search-form .dropdown-btn:before{
     position: absolute;
-    left: 0;
+    left: 1px;
     top: 20%;
     bottom: 20%;
     content: '';

@@ -107,8 +107,14 @@ img{
 }
 
 /*===Inputs===*/
+.form-control{
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 .form-control-sm{
     font-size: 12px;
+    font-weight: normal;
 }
 .form-control{
     font-size: 14px;
@@ -116,15 +122,19 @@ img{
 
 .form-control-sm::placeholder{
     font-size: 12px;
+    line-height: normal;
 }
 .form-control-sm::-webkit-input-placeholder{
     font-size: 12px;
+    line-height: normal;
 }
 .form-control-sm:-moz-placeholder{
     font-size: 12px;
+    line-height: normal;
 }
 .form-control-sm:-ms-input-placeholder{
     font-size: 12px;
+    line-height: normal;
 }
 ::placeholder{
     font-size: 14px;
@@ -211,7 +221,6 @@ img{
         float: none!important;
     }
     .page-top .float-right{
-
         margin-top: 10px;
     }
 }

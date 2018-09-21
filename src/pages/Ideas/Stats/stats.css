@@ -17,4 +17,7 @@
 .ideas-chart .recharts-xAxis
 {
     transform: translateX(-35px);
+    -moz-transform:translateX(-35px);
+    -webkit-transform: translateX(-35px);
+    -ms-transform: translateX(-35px);
 }

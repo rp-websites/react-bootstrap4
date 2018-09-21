@@ -15,7 +15,7 @@
 @media only screen and (max-width: 1300px){
     .search-wrapper .project-footer{
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
     }
 
     .search-wrapper .project-footer>div{

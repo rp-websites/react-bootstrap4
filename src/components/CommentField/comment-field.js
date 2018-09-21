@@ -20,7 +20,7 @@ class CommentField extends Component {
             html={this.state.html}
             disabled={false}
             onChange={this.handleChange}
-            tagName='article'
+            tagName='div'
         />
     };
 }

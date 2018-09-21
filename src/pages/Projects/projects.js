@@ -12,11 +12,10 @@ import jsonData from '../../db';
 class Projects extends Component {
     constructor(props) {
         super(props);
+        this.toggle = this.toggle.bind(this);
         this.state = {
             modal: false
-        };
-
-        this.toggle = this.toggle.bind(this);
+        }
     }
 
     toggle() {
